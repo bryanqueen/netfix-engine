@@ -9,8 +9,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'netflix-red': '#E50914',
+        'netflix-black': '#141414',
+        'netflix-dark': '#181818',
+        'netflix-gray': '#808080',
+        'netflix-light-gray': '#b3b3b3',
+      },
+      fontFamily: {
+        sans: ['Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
+      },
+      boxShadow: {
+        'netflix': '0 0 10px rgba(0, 0, 0, 0.5)',
+      },
+      backgroundImage: {
+        'gradient-to-b': 'linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)',
       },
     },
   },
